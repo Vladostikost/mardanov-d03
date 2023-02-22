@@ -1,11 +1,11 @@
 import './App.css';
-import Qestions from './components/Qestions/Qestions';
-import './scss/style.scss'
+import Questions from './Question/Question';
+import './css/style.scss'
 
 function App() {
   return (
     <main>
-      <Qestions></Qestions>
+      <Questions/>
     </main>
   );
 }
